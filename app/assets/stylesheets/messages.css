@@ -35,4 +35,32 @@
   background-color: #2f3e51;
   height: calc( 100vh - 100px );
   padding: 0 40px;
+  overflow: scroll;
+}
+/*side-bar-header*/
+.side-bar-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: left;
+  text-decoration: none;
+}
+.create-chat a{
+  padding: 14px;
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  text-decoration: none;
+}
+/*chat-room-name*/
+.chat-room-name{
+  padding: 20px 0 40px 0;
+}
+.chat-room-name a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
