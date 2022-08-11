@@ -87,21 +87,21 @@
   text-decoration: none;
 }
 /*chat-main*/
-.chat-name-time{
+.upper-message{
   display: flex;
   align-items: flex-start;
   padding: 10px 0;
 }
-.user-name{
+.message-user{
   margin-right: 10px;
   font-size: 16px;
   color: #434A54;
 }
-.time{
+.message-date{
   font-size: 12px;
   color: #999999;
 }
-.content{
+.message-content{
   font-size: 14px;
   color: #434A54;
 }
